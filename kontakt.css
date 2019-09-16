@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
+    background-image: url(./bilder/logo.jpg);
+    background-size: 25%;
+    background-position: top right;
+    background-repeat: no-repeat repeat;
+}
+
+header{
+    background-color: rgb(212, 0, 0);
+    position:fixed;
+    width: 100%;
+}
+
+.logo-link {
+    margin-right: auto;
+}
+
+.logo {
+    height: 50px;
+    background-color: white;
+}
+
+header nav {
+    display: flex;
+    grid-auto-flow: column;
+}
+
+header nav a{
+    display: flex;
+    align-items: center;
+    color:white;
+    text-decoration: none;
+    padding: 16px 32px;
+}
+
+nav a:hover{
+    background-color: rgba(255,255,255,1);
+    color:black;
+}
