@@ -45,3 +45,38 @@ nav a:hover{
     background-color: rgba(255,255,255,1);
     color:black;
 }
+
+iframe {
+    width: 65%;
+    height: 80vh;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.overpolitikk {
+    width: 75%;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+.overpolitikk h1 {
+    color: rgb(212, 0, 0);
+    font-size: 52px;
+    padding-bottom: 10px;
+}
+
+.overpolitikk h2 {
+    color: black;
+    font-size: 24px;
+}
+
+.overpolitikk h3 {
+    color: rgb(212, 0, 0);
+    font-size: 28px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.overpolitikk img {
+    width: 75%
+}

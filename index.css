@@ -52,6 +52,11 @@ nav a:hover{
     padding: 100px 100px 100px 30px;
 }
 
+.forside a {
+    color: rgb(212, 0, 0);
+    text-decoration: none;
+}
+
 .forside h1{
     font-size: 40px;
     display: block;
@@ -102,4 +107,21 @@ nav a:hover{
 
 main{
     padding-left: 30px;
+}
+
+#a-1 a {
+    text-decoration: underline;
+    color:  black;
+}
+#a-2 a {
+    text-decoration: underline;
+    color:  black;
+}
+#a-3 a {
+    text-decoration: underline;
+    color:  black;
+}
+#a-4 a {
+    text-decoration: underline;
+    color:  black;
 }
